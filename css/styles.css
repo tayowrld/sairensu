@@ -383,7 +383,12 @@ li {
     background-size: 100%;
 }
 
-@media screen and (max-width:800px) {
+.checker#block-3 {
+    position: relative;
+    top: 1000px;
+}
+
+@media screen and (max-width: 800px) {
     .block-3 {
         height: 100vh;
     }
@@ -395,6 +400,10 @@ li {
     }
     .split-2 {
         width: 100% !important;
+    }
+    .checker#block-3 {
+        position: relative;
+        top: 500px;
     }
 }
 
